@@ -1,5 +1,5 @@
 .navbar-brand {
-  background-color: #28C4AF;
+  background-color: #6441a5;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 10px;
@@ -12,8 +12,17 @@
     font-size: x-large;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #6441a5 !important;
+  font-weight: bold;
+}
+
+.dropdown-item {
+  color: #6441a5 !important;
+}
+
 body
-{ background-color: #EDEDED;
+{ background-color: #E9E9E9;
 }
 
 .container {
@@ -23,6 +32,9 @@ body
 .col-md-7 {
   margin-left: 25px;
   background-color: #f8f9fa;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media (max-width: 600px) {
@@ -31,6 +43,9 @@ body
 .col-md-4{
   background-color: #f8f9fa;
   margin-left: 25px;
+  padding-bottom: : 25px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 p {
@@ -39,7 +54,7 @@ p {
 
 h2 {
   padding-top:20px;
-  color: #28C4AF;
+  color: #6441a5;
 }
 
 .col-md-4 {
@@ -47,7 +62,7 @@ h2 {
 }
 
 .navbar-light .navbar-brand:hover{
-   color: #EDEDED;
+   color: #ECE9FD;
  }
  .navbar-light .navbar-brand:visited{
    color: #f8f9fa;
